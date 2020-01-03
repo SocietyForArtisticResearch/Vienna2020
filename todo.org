@@ -1,0 +1,26 @@
+* New Features
+** New RC Front Page (Luc)
+** In revision state (Casper)
+** New text-based editor (Luc)
+** Keyword page (Casper)
+** HTML import (Luc)
+** Share status (Casper)
+** Fixes pseudonym (Luc)
+** Titles and metadata for admin (Casper)
+** Connect-to-portal (Luc)
+** Excel export of applications (Casper)
+* Focus Groups Structure
+** Formats, Data, Archiving
+** RC Community, Network and Teaching
+** Administration and Workflow
+* Logbook
+** https://societyforartisticresearch.github.io/rclogbook/
+
+* Format Module
+** Aims (Luc)
+** New Exposition Format (Luc)
+*** semantic web
+*** text that we wrote
+*** haskell code
+** Media Repostiroy/API (Casper)
+
