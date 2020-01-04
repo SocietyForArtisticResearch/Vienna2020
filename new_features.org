@@ -1,0 +1,30 @@
+#+REVEAL_THEME: white
+#+REVEAL_EXTRA_CSS: style.css
+#+DATE: January 2020
+#+TITLE: New Features
+#+AUTHOR: Döbereiner and Schipper
+#+OPTIONS: toc:nil
+#+OPTIONS: timestamp:nil
+#+OPTIONS: num:nil
+#+LANGUAGE: en
+#+REVEAL_PLUGINS: (highlight)
+
+
+* New Features
+** New RC Front Page
+- Make it easier to browse journals, portals etc.
+- Better communicate 
+- Show SARAnnouncements
+*** New RC Front Page: Sketch 1
+[[./media/mockup1.png]]
+*** New RC Journals Page: Sketch 2
+[[./media/mockup2.png]]
+** In revision state (Casper)
+** New text-based editor (Luc)
+** Keyword page (Casper)
+** HTML import (Luc)
+** Share status (Casper)
+** Fixes pseudonym (Luc)
+** Titles and metadata for admin (Casper)
+** Connect-to-portal (Luc)
+** Excel export of applications (Casper)
