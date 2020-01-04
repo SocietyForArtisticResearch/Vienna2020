@@ -12,9 +12,10 @@
 
 * New Features
 ** New RC Front Page
-- Make it easier to browse research
-- Better communicate hosted journals, portals etc.
-- Show SARAnnouncements
+- Make it easier to browse and find research
+- Better communicate hosted journals, portals etc. and their focus
+- Make it easier for authors to submit to the right journal
+- Show SARAnnouncements and facilitate registration
 *** New RC Front Page: Sketch 1
 [[./media/mockup1.png]]
 *** New RC Journals Page: Sketch 2
@@ -25,6 +26,7 @@
 - Better long-term maintenance and easier to extend
 - Easier to merge with the graphical editor
 - Browser-based spell-checker
+- https://github.com/SocietyForArtisticResearch/texteditor-elm
 ** Keyword page (Casper)
 ** HTML import (Luc)
 ** Share status (Casper)
