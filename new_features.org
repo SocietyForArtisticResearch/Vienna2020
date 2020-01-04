@@ -20,22 +20,22 @@
 [[./media/mockup1.png]]
 *** New RC Journals Page: Sketch 2
 [[./media/mockup2.png]]
-** In revision state (Casper)
-** New text-based editor
+** In Revision State (Casper)
+** New Text-Based Editor
 - Complete reimplementation in the purely functional langauge /elm/ (https://elm-lang.org/)
 - Better long-term maintenance and easier to extend
 - Easier to merge with the graphical editor
 - Browser-based spell-checker
 - https://github.com/SocietyForArtisticResearch/texteditor-elm
-** Keyword page (Casper)
-** HTML import (Luc)
-** Share status (Casper)
-** Fixes pseudonym 
+** Keyword Page (Casper)
+** HTML Import (Luc)
+** Share Status (Casper)
+** Fixes Pseudonym 
 [[./media/pseudonym.png]]
 ** Titles and metadata for admin (Casper)
-** Connect-to-portal 
+** Connect-to-Portal 
 - Private expositions can longer be connected to portals
 - Share status displayed in admin interface
 *** Connection Request Share Status
 [[./media/connect_share.png]]
-** Excel export of applications (Casper)
+** Excel Export of Applications (Casper)
