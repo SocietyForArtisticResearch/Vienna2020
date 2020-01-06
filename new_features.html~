@@ -7,19 +7,19 @@
 <style type="text/css">
 .underline { text-decoration: underline; }
 </style>
-<link rel="stylesheet" href="file:///Users/casperschipper/Google Drive/Research Catalog/Portal Meetings/Reveal/reveal.js-3.8.0/css/reveal.css"/>
+<link rel="stylesheet" href="file:////Users/casperschipper/Google Drive/Research Catalog/Portal Meetings/Reveal/reveal.js-3.8.0/js/reveal.js/css/reveal.css"/>
 
-<link rel="stylesheet" href="file:///Users/casperschipper/Google Drive/Research Catalog/Portal Meetings/Reveal/reveal.js-3.8.0/css/theme/white.css" id="theme"/>
+<link rel="stylesheet" href="file:////Users/casperschipper/Google Drive/Research Catalog/Portal Meetings/Reveal/reveal.js-3.8.0/js/reveal.js/css/theme/white.css" id="theme"/>
 
 <link rel="stylesheet" href="style.css"/>
-<link rel="stylesheet" href="file:///Users/casperschipper/Google Drive/Research Catalog/Portal Meetings/Reveal/reveal.js-3.8.0/lib/css/zenburn.css"/>
+<link rel="stylesheet" href="file:////Users/casperschipper/Google Drive/Research Catalog/Portal Meetings/Reveal/reveal.js-3.8.0/js/reveal.js/lib/css/zenburn.css"/>
 <!-- If the query includes 'print-pdf', include the PDF print sheet -->
 <script>
     if( window.location.search.match( /print-pdf/gi ) ) {
         var link = document.createElement( 'link' );
         link.rel = 'stylesheet';
         link.type = 'text/css';
-        link.href = 'file:///Users/casperschipper/Google Drive/Research Catalog/Portal Meetings/Reveal/reveal.js-3.8.0/css/print/pdf.css';
+        link.href = 'file:////Users/casperschipper/Google Drive/Research Catalog/Portal Meetings/Reveal/reveal.js-3.8.0/js/reveal.js/css/print/pdf.css';
         document.getElementsByTagName( 'head' )[0].appendChild( link );
     }
 </script>
@@ -32,13 +32,13 @@
 
 
 <section>
-<section id="slide-orgcefa6bd">
-<h2 id="orgcefa6bd">New Features</h2>
-<div class="outline-text-2" id="text-orgcefa6bd">
+<section id="slide-orgadd9353">
+<h2 id="orgadd9353">New Features</h2>
+<div class="outline-text-2" id="text-orgadd9353">
 </div>
 </section>
-<section id="slide-org203de6b">
-<h3 id="org203de6b">New RC Front Page</h3>
+<section id="slide-org228e793">
+<h3 id="org228e793">New RC Front Page</h3>
 <ul>
 <li>Make it easier to browse and find research</li>
 <li>Better communicate hosted journals, portals etc. and their focus</li>
@@ -47,24 +47,24 @@
 
 </ul>
 </section>
-<section id="slide-org379985d">
-<h4 id="org379985d">New RC Front Page: Sketch 1</h4>
+<section id="slide-orgcfb3eb3">
+<h4 id="orgcfb3eb3">New RC Front Page: Sketch 1</h4>
 
 <div class="figure">
 <p><img src="./media/mockup1.png" alt="mockup1.png" />
 </p>
 </div>
 </section>
-<section id="slide-org7f7e8bc">
-<h4 id="org7f7e8bc">New RC Journals Page: Sketch 2</h4>
+<section id="slide-org585b75a">
+<h4 id="org585b75a">New RC Journals Page: Sketch 2</h4>
 
 <div class="figure">
 <p><img src="./media/mockup2.png" alt="mockup2.png" />
 </p>
 </div>
 </section>
-<section id="slide-org2f79450">
-<h3 id="org2f79450">In Revision State (Casper)</h3>
+<section id="slide-org55f1a24">
+<h3 id="org55f1a24">In Revision State (Casper)</h3>
 <p>
 Expositions can be put in revision.
 This means:
@@ -78,8 +78,8 @@ This means:
 </ul>
 
 </section>
-<section id="slide-org8b008b4">
-<h4 id="org8b008b4">In revision dialog (administrator)</h4>
+<section id="slide-orgb2c49ea">
+<h4 id="orgb2c49ea">In revision dialog (administrator)</h4>
 
 <div class="figure">
 <p><img src="./media/in_revision.png" alt="in_revision.png" />
@@ -87,8 +87,8 @@ This means:
 </div>
 
 </section>
-<section id="slide-org3f80da0">
-<h3 id="org3f80da0">New Text-Based Editor</h3>
+<section id="slide-org7804de4">
+<h3 id="org7804de4">New Text-Based Editor</h3>
 <ul>
 <li>Complete re-implementation in the purely functional language <i>elm</i> (<a href="https://elm-lang.org/">https://elm-lang.org/</a>)</li>
 <li>Better long-term maintenance and easier to extend</li>
@@ -98,8 +98,8 @@ This means:
 
 </ul>
 </section>
-<section id="slide-org4ec4079">
-<h3 id="org4ec4079">Keyword Page (Casper)</h3>
+<section id="slide-org8a49787">
+<h3 id="org8a49787">Keyword Page (Casper)</h3>
 <ul>
 <li>Search has an option to return results as raw data (JSON).</li>
 <li>This can be used to navigate content in custom ways.</li>
@@ -114,8 +114,8 @@ This means:
 </p>
 
 </section>
-<section id="slide-orgbab14af">
-<h3 id="orgbab14af">HTML Import</h3>
+<section id="slide-orgcb7d636">
+<h3 id="orgcb7d636">HTML Import</h3>
 <ul>
 <li>Restrictive direct HTML, CSS and media upload as exposition</li>
 <li>No JavaScript</li>
@@ -126,8 +126,8 @@ This means:
 
 </ul>
 </section>
-<section id="slide-orgab70030">
-<h3 id="orgab70030">Share Status (Casper)</h3>
+<section id="slide-org15f6910">
+<h3 id="org15f6910">Share Status (Casper)</h3>
 <ul>
 <li>This is related to "connect to portal".</li>
 <li>Admins can see the share status of objects</li>
@@ -135,40 +135,40 @@ This means:
 </ul>
 
 </section>
-<section id="slide-org25df8f4">
-<h3 id="org25df8f4">Fixes Pseudonym</h3>
+<section id="slide-org14ac4cb">
+<h3 id="org14ac4cb">Fixes Pseudonym</h3>
 
 <div class="figure">
 <p><img src="./media/pseudonym.png" alt="pseudonym.png" />
 </p>
 </div>
 </section>
-<section id="slide-org936100a">
-<h3 id="org936100a">Titles and metadata for admin (Casper)</h3>
+<section id="slide-orgb407b3c">
+<h3 id="orgb407b3c">Titles and metadata for admin (Casper)</h3>
 <ul>
 <li>Titles and metadata can be directly edited by a portal admin.</li>
 
 </ul>
 
 </section>
-<section id="slide-org6a072ae">
-<h3 id="org6a072ae">Connect-to-Portal</h3>
+<section id="slide-org7b42bc6">
+<h3 id="org7b42bc6">Connect-to-Portal</h3>
 <ul>
 <li>Private expositions can longer be connected to portals</li>
 <li>Share status displayed in admin interface</li>
 
 </ul>
 </section>
-<section id="slide-org6406bf8">
-<h4 id="org6406bf8">Connection Request Share Status</h4>
+<section id="slide-orgd08188f">
+<h4 id="orgd08188f">Connection Request Share Status</h4>
 
 <div class="figure">
 <p><img src="./media/connect_share.png" alt="connect_share.png" />
 </p>
 </div>
 </section>
-<section id="slide-orge2cc31a">
-<h3 id="orge2cc31a">Excel Export of Applications (Casper)</h3>
+<section id="slide-orga56c516">
+<h3 id="orga56c516">Excel Export of Applications (Casper)</h3>
 <ul>
 <li>To facilitate organising larger application programs with many submissions</li>
 <li>Works per group/program.</li>
@@ -178,7 +178,7 @@ This means:
 </section>
 </div>
 </div>
-<script src="file:///Users/casperschipper/Google Drive/Research Catalog/Portal Meetings/Reveal/reveal.js-3.8.0/js/reveal.js"></script>
+<script src="file:////Users/casperschipper/Google Drive/Research Catalog/Portal Meetings/Reveal/reveal.js-3.8.0/js/reveal.js/js/reveal.js"></script>
 
 <script>
 // Full list of configuration options available here:
@@ -192,7 +192,7 @@ multiplex: {
 
 // Optional libraries used to extend on reveal.js
 dependencies: [
- { src: 'file:///Users/casperschipper/Google Drive/Research Catalog/Portal Meetings/Reveal/reveal.js-3.8.0/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }]
+ { src: 'file:////Users/casperschipper/Google Drive/Research Catalog/Portal Meetings/Reveal/reveal.js-3.8.0/js/reveal.js/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }]
 });
 </script>
 </body>
