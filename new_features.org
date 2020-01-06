@@ -22,11 +22,13 @@
 [[./media/mockup2.png]]
 ** In Revision State (Casper)
 
-Expositions can be put in revision.
+Expositions can now be put "in revision" state.
+
 This means:
-- The author can edit the content again
-- The reviewers can still view it, but status is shown.
-- Either the author or the admin can "lock" the exposition back to "in review".
+- The author can edit the content.
+- However, the exposition remains in the list for the admin.
+- Reviewers can still view it, but it is listed with an "in revision" status.
+- Either the author or the admin can return the exposition into "review" state.
 - This solves a problem where expositions "go missing" after something is changed.
 
 *** In revision dialog (administrator)
@@ -38,13 +40,12 @@ This means:
 - Easier to merge with the graphical editor
 - Browser-based spell-checker
 - https://github.com/SocietyForArtisticResearch/texteditor-elm
+- Media is sortable/searchable
 ** Keyword Page (Casper)
 
 - Search has an option to return results as raw data (JSON).
 - This can be used to navigate content in custom ways.
 - Source can be easily adapted to other protals, if there is interest please let us know.
-
-
 
 [[https://www.researchcatalogue.net/view/496747/496748]]
 
@@ -64,14 +65,20 @@ This means:
 [[./media/pseudonym.png]]
 ** Titles and metadata for admin (Casper)
 
-- Titles and metadata can be directly edited by a portal admin.
+- Titles and metadata can be directly edited by admins within the reviewing list.
+- [[https://www.researchcatalogue.net/admin/reviewing/list]]
+
+*** edit meta tab in review section adminstration
+[[./media/edit-metadata-admin.png]]
 
 ** Connect-to-Portal 
 - Private expositions can longer be connected to portals
 - Share status displayed in admin interface
 *** Connection Request Share Status
-[[./media/connect_share.png]]
+    [[./media/connect_share.png]]
 ** Excel Export of Applications (Casper)
 
-- To facilitate organising larger application programs with many submissions
+- To handle large numbers of submissions
+- Exports to "Comma Seperated Value" files.
 - Works per group/program.
+- Currently limited to one way, only export.
