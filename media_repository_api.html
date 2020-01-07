@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>Media Repository / API</title>
+<meta name="author" content="(Döbereiner and Schipper)"/>
+<style type="text/css">
+.underline { text-decoration: underline; }
+</style>
+<link rel="stylesheet" href="file:///Users/casperschipper/Google Drive/Research Catalog/Portal Meetings/Reveal/reveal.js-3.8.0/css/reveal.css"/>
+
+<link rel="stylesheet" href="file:///Users/casperschipper/Google Drive/Research Catalog/Portal Meetings/Reveal/reveal.js-3.8.0/css/theme/white.css" id="theme"/>
+
+<link rel="stylesheet" href="style.css"/>
+<link rel="stylesheet" href="file:///Users/casperschipper/Google Drive/Research Catalog/Portal Meetings/Reveal/reveal.js-3.8.0/lib/css/zenburn.css"/>
+<!-- If the query includes 'print-pdf', include the PDF print sheet -->
+<script>
+    if( window.location.search.match( /print-pdf/gi ) ) {
+        var link = document.createElement( 'link' );
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = 'file:///Users/casperschipper/Google Drive/Research Catalog/Portal Meetings/Reveal/reveal.js-3.8.0/css/print/pdf.css';
+        document.getElementsByTagName( 'head' )[0].appendChild( link );
+    }
+</script>
+</head>
+<body>
+<div class="reveal">
+<div class="slides">
+<section id="sec-title-slide"><h1 class="title">Media Repository / API</h1><h2 class="author">Döbereiner and Schipper</h2><h2 class="date">January 2020</h2>
+</section>
+
+<section>
+<section id="slide-orgd6cc81c">
+<h2 id="orgd6cc81c">MODULE : Repository / API</h2>
+<div class="outline-text-2" id="text-orgd6cc81c">
+</div>
+</section>
+<section id="slide-org3fd488e">
+<h3 id="org3fd488e">PART I : Repostory</h3>
+<div class="outline-text-3" id="text-org3fd488e">
+</div>
+</section>
+<section id="slide-orgbf1c48a">
+<h4 id="orgbf1c48a">Works (as currently):</h4>
+<ul>
+<li>Reuse of materials between expositions</li>
+<li>Allows for uploading single files, without an exposition</li>
+<li>Additional meta-data</li>
+<li>Represents a real-world artwork or event</li>
+
+</ul>
+
+</section>
+<section id="slide-orgdc04694">
+<h4 id="orgdc04694">Media Repostory (to be implemented):</h4>
+<p>
+Extends the work concept: 
+</p>
+
+<ul>
+<li>Any object can annotate another object</li>
+<li>Annotation can be specific to a location a complete object</li>
+<li>One click upload</li>
+<li>Bulk upload</li>
+<li>Collaboration / sharing / citing</li>
+
+</ul>
+
+</section>
+<section id="slide-orgba38da0">
+<h4 id="orgba38da0">Annotation pointers</h4>
+<p>
+Media can be annotated using pointers.
+The annotating object can be a work itself, or a text.
+</p>
+
+
+</section>
+<section id="slide-org7b93a54">
+<h4 id="org7b93a54">Annotation types</h4>
+<ul>
+<li>Reference</li>
+<li>Description</li>
+<li>Comment</li>
+<li>Realization</li>
+<li>Representation</li>
+
+</ul>
+
+</section>
+<section id="slide-org1b103b7">
+<h4 id="org1b103b7">Annotation pointer types:</h4>
+<ul>
+<li>Time (audio and video)</li>
+<li>Position (image)</li>
+<li>Character position (text)</li>
+
+</ul>
+
+</section>
+<section id="slide-org42fa9af">
+<h3 id="org42fa9af">API</h3>
+<div class="outline-text-3" id="text-org42fa9af">
+</div>
+</section>
+<section id="slide-org0274969">
+<h4 id="org0274969">Why an API?</h4>
+<ul>
+<li>Custom editors and imports (example: text-based editor, madek import)</li>
+<li>Generating "meta" expositions based on content</li>
+<li>Automating administrative tasks (registering large amount of users)</li>
+<li>Export/Backup portal content</li>
+<li>Modular development</li>
+<li>Transparancy</li>
+<li>Linking with networks</li>
+
+</ul>
+</section>
+</section>
+</div>
+</div>
+<script src="file:///Users/casperschipper/Google Drive/Research Catalog/Portal Meetings/Reveal/reveal.js-3.8.0/js/reveal.js"></script>
+
+<script>
+// Full list of configuration options available here:
+// https://github.com/hakimel/reveal.js#configuration
+Reveal.initialize({
+multiplex: {
+    secret: '', // null if client
+    id: '', // id, obtained from socket.io server
+    url: '' // Location of socket.io server
+},
+
+// Optional libraries used to extend on reveal.js
+dependencies: [
+ { src: 'file:///Users/casperschipper/Google Drive/Research Catalog/Portal Meetings/Reveal/reveal.js-3.8.0/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }]
+});
+</script>
+</body>
+</html>

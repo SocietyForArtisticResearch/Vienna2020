@@ -1,0 +1,67 @@
+#+REVEAL_THEME: white
+#+REVEAL_EXTRA_CSS: style.css
+#+DATE: January 2020
+#+TITLE: Media Repository / API
+#+AUTHOR: Döbereiner and Schipper
+#+OPTIONS: toc:nil
+#+OPTIONS: timestamp:nil
+#+OPTIONS: num:nil
+#+LANGUAGE: en
+#+REVEAL_PLUGINS: (highlight)
+
+* MODULE : Repository / API
+
+** PART I : Repostory
+
+*** Works (as currently):
+
+- Reuse of materials between expositions
+- Allows for uploading single files, without an exposition
+- Additional meta-data
+- Represents a real-world artwork or event
+
+*** Media Repostory (to be implemented):
+
+Extends the work concept: 
+
+- Any object can annotate another object
+- Annotation can be specific to a location a complete object
+- One click upload
+- Bulk upload
+- Collaboration / sharing / citing
+
+*** Annotation pointers
+
+Media can be annotated using pointers.
+The annotating object can be a work itself, or a text.
+
+
+*** Annotation types
+ 
+- Reference
+- Description
+- Comment
+- Realization
+- Representation
+
+*** Annotation pointer types:
+
+- Time (audio and video)
+- Position (image)
+- Character position (text)
+
+** API
+
+*** Why an API?
+
+- Custom editors and imports (example: text-based editor, madek import)
+- Generating "meta" expositions based on content
+- Automating administrative tasks (registering large amount of users)
+- Export/Backup portal content
+- Modular development
+- Transparancy
+- Linking with networks
+
+
+
+

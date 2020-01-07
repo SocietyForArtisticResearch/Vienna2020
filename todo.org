@@ -24,3 +24,50 @@
 *** haskell code
 ** Media Repostiroy/API (Casper)
 
+*** Repository
+
+Works (as currently):
+
+- Reuse of materials between expositions
+- Allows for uploading single files, without an exposition
+- Additional meta-data
+- Represents a real-world artwork or event
+
+Media Repostory
+
+Should do all of the above
+
+- One click upload
+- Bulk upload
+- Any object can annotate another object.
+- Annotation can be specific or to the object as a whole.
+
+*** Annotation pointers
+
+- Time (audio and video)
+- Position (image)
+- Character position (text)
+
+*** Annotation types
+ 
+- Reference
+- Description
+- Comment
+- Realization
+- Representation
+
+*** API
+
+*** Why an API?
+
+- Custom editors and imports (example: Text-based editor, Madek import)
+- Generating "meta" expositions based on content
+- Automating administrative tasks (registering large amount of users)
+- Export/Backup portal content
+- Modular development
+- Transparancy
+- Linking with networks
+
+
+
+
