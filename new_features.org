@@ -68,16 +68,17 @@ This means:
 
 ** Fixes Pseudonym 
 [[./media/pseudonym.png]]
-** Titles and metadata for admin (Casper)
 
-- Titles and metadata can be directly edited by admins within the reviewing list.
+** Titles and metadata for admin
+
+- Titles and metadata can be directly edited by admins from the reviewing list.
 - [[https://www.researchcatalogue.net/admin/reviewing/list]]
 
-*** Admins can now (more easily) edit metadata in..
+*** to access: click "edit" and..
 
 [[./media/edit-research-admin.png]]
 
-*** ..the metadata tab
+*** ..open the metadata tab !
 
 [[./media/edit-metadata-admin.png]]
 
