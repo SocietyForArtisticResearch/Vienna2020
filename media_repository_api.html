@@ -31,81 +31,102 @@
 </section>
 
 <section>
-<section id="slide-orgd6cc81c">
-<h2 id="orgd6cc81c">MODULE : Repository / API</h2>
-<div class="outline-text-2" id="text-orgd6cc81c">
+<section id="slide-orgc3b9ebc">
+<h2 id="orgc3b9ebc">MODULE : Repository / API</h2>
+<div class="outline-text-2" id="text-orgc3b9ebc">
 </div>
 </section>
-<section id="slide-org3fd488e">
-<h3 id="org3fd488e">PART I : Repostory</h3>
-<div class="outline-text-3" id="text-org3fd488e">
+<section id="slide-org080132a">
+<h3 id="org080132a">PART I : Repostory</h3>
+<div class="outline-text-3" id="text-org080132a">
 </div>
 </section>
-<section id="slide-orgbf1c48a">
-<h4 id="orgbf1c48a">Works (as currently):</h4>
+<section id="slide-org6a1c038">
+<h4 id="org6a1c038">Works (current state):</h4>
 <ul>
+<li>Uploading single files</li>
 <li>Reuse of materials between expositions</li>
-<li>Allows for uploading single files, without an exposition</li>
 <li>Additional meta-data</li>
-<li>Represents a real-world artwork or event</li>
+<li>Represents a single real-world (art)work, article, project or event</li>
 
 </ul>
 
 </section>
-<section id="slide-orgdc04694">
-<h4 id="orgdc04694">Media Repostory (to be implemented):</h4>
-<p>
-Extends the work concept: 
-</p>
-
-<ul>
-<li>Any object can annotate another object</li>
-<li>Annotation can be specific to a location a complete object</li>
-<li>One click upload</li>
-<li>Bulk upload</li>
-<li>Collaboration / sharing / citing</li>
-
-</ul>
-
-</section>
-<section id="slide-orgba38da0">
-<h4 id="orgba38da0">Annotation pointers</h4>
-<p>
-Media can be annotated using pointers.
-The annotating object can be a work itself, or a text.
-</p>
-
-
-</section>
-<section id="slide-org7b93a54">
-<h4 id="org7b93a54">Annotation types</h4>
-<ul>
-<li>Reference</li>
-<li>Description</li>
-<li>Comment</li>
-<li>Realization</li>
-<li>Representation</li>
-
-</ul>
-
-</section>
-<section id="slide-org1b103b7">
-<h4 id="org1b103b7">Annotation pointer types:</h4>
-<ul>
-<li>Time (audio and video)</li>
-<li>Position (image)</li>
-<li>Character position (text)</li>
-
-</ul>
-
-</section>
-<section id="slide-org42fa9af">
-<h3 id="org42fa9af">API</h3>
-<div class="outline-text-3" id="text-org42fa9af">
+<section id="slide-orgb8eba41">
+<h3 id="orgb8eba41">Reimagining works as a Media Repository</h3>
+<div class="outline-text-3" id="text-orgb8eba41">
 </div>
 </section>
-<section id="slide-org0274969">
-<h4 id="org0274969">Why an API?</h4>
+<section id="slide-org451551b">
+<h4 id="org451551b">Uploading media</h4>
+<ul>
+<li>Bulk</li>
+<li>Automatic type detection</li>
+<li>One click</li>
+<li>Simple media can be upgraded to be a work</li>
+
+</ul>
+
+</section>
+<section id="slide-org0435e5a">
+<h4 id="org0435e5a">Organising Media</h4>
+<ul>
+<li>Grouping (sets)</li>
+<li>Searching</li>
+<li>Sorting by properties</li>
+<li>Creating relationships (by annotation)</li>
+
+</ul>
+
+</section>
+<section id="slide-org9b7954a">
+<h4 id="org9b7954a">Annotation (1/2)</h4>
+<ul>
+<li>Any media object can annotate another media object</li>
+<li>Annotation can point to a location/time within another object</li>
+<li>Collaboration / Sharing / Citing</li>
+
+</ul>
+
+</section>
+<section id="slide-org2b24b6e">
+<h4 id="org2b24b6e">Annotation (2/2)</h4>
+<ul>
+<li>Objects annotate objects</li>
+<li>Pointers depend on the nature of the object</li>
+
+</ul>
+
+</section>
+<section id="slide-orgc3474e3">
+<h4 id="orgc3474e3">Annotation types</h4>
+<ul>
+<li>Reference : citation, source, example</li>
+<li>Description : meta-data, material, context, time etc..</li>
+<li>Comment : footnote, thoughts, tangents</li>
+<li>Realization : Performance of a score/script/plan etc..</li>
+<li>Representation : maps, diagrams, graphics, tables, timeline</li>
+
+</ul>
+
+</section>
+<section id="slide-orga40e0cf">
+<h4 id="orga40e0cf">Annotation pointer types:</h4>
+<ul>
+<li>Time (and optional location within): audio and video</li>
+<li>Position: x,y in picture</li>
+<li>Character position: text</li>
+
+</ul>
+
+</section>
+<section id="slide-org73a865f">
+<h3 id="org73a865f">Part 2: API</h3>
+<div class="outline-text-3" id="text-org73a865f">
+</div>
+</section>
+<section id="slide-org98e0397">
+<h4 id="org98e0397">Why an API?</h4>
 <ul>
 <li>Custom editors and imports (example: text-based editor, madek import)</li>
 <li>Generating "meta" expositions based on content</li>
