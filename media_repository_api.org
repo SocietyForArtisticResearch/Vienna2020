@@ -9,23 +9,25 @@
 #+LANGUAGE: en
 #+REVEAL_PLUGINS: (highlight)
 
-* MODULE : Repository / API
+* MODULE: Repository / API
 
-** PART I : Repostory
+** PART I: Repository
 
 *** Works (current state):
 
-- Uploading single files
+- Individual file upload
+- Group of media files
 - Reuse of materials between expositions
 - Additional meta-data
 - Represents a single real-world (art)work, article, project or event
 
-** Reimagining works as a Media Repository
+
+** Reimagining Works as a Media Repository
 
 *** Uploading media
 
 - Bulk
-- Automatic type detection
+- Automatic file type detection
 - One click
 - Simple media can be upgraded to be a work
 
@@ -47,18 +49,18 @@
 - Objects annotate objects
 - Pointers depend on the nature of the object
 
-*** Annotation types
+*** Annotation Types
  
-- Reference : citation, source, example
-- Description : meta-data, material, context, time etc..
-- Comment : footnote, thoughts, tangents
-- Realization : Performance of a score/script/plan etc.. 
-- Representation : maps, diagrams, graphics, tables, timeline
+- Reference: citation, source, example
+- Description: meta-data, material, context, time etc..
+- Comment: footnote, thoughts, tangents
+- Realization: Performance of a score/script/plan etc.. 
+- Representation: maps, diagrams, graphics, tables, timeline
 
-*** Annotation pointer types:
+*** Annotation Pointer Types:
 
 - Time (and optional location within): audio and video
-- Position: x,y in picture
+- Position: x,y in image
 - Character position: text
 
 ** Part 2: API
