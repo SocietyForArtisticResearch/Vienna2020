@@ -54,8 +54,7 @@
 *** Annotation (2/2)
 
 - Objects annotate objects
-- Pointers depend on the nature of the object (location, point in
-  time, a word in a text, etc.)
+- Pointers depend on the nature of the object 
 
 *** Annotation Types
  
@@ -88,8 +87,8 @@
 - Automating administrative tasks (registering large amount of users)
 - Export/Backup portal content
 - Modular development
-- Transparancy
-- Linking with networks
+- Transparency
+- Linking with networks and other repositories
 
 
 
