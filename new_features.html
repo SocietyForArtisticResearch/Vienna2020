@@ -7,19 +7,19 @@
 <style type="text/css">
 .underline { text-decoration: underline; }
 </style>
-<link rel="stylesheet" href="file:///Users/casperschipper/Google Drive/Research Catalog/Portal Meetings/Reveal/reveal.js-3.8.0/css/reveal.css"/>
+<link rel="stylesheet" href="file:///home/luc/Work/src/reveal.js/css/reveal.css"/>
 
-<link rel="stylesheet" href="file:///Users/casperschipper/Google Drive/Research Catalog/Portal Meetings/Reveal/reveal.js-3.8.0/css/theme/white.css" id="theme"/>
+<link rel="stylesheet" href="file:///home/luc/Work/src/reveal.js/css/theme/white.css" id="theme"/>
 
 <link rel="stylesheet" href="style.css"/>
-<link rel="stylesheet" href="file:///Users/casperschipper/Google Drive/Research Catalog/Portal Meetings/Reveal/reveal.js-3.8.0/lib/css/zenburn.css"/>
+<link rel="stylesheet" href="file:///home/luc/Work/src/reveal.js/lib/css/zenburn.css"/>
 <!-- If the query includes 'print-pdf', include the PDF print sheet -->
 <script>
     if( window.location.search.match( /print-pdf/gi ) ) {
         var link = document.createElement( 'link' );
         link.rel = 'stylesheet';
         link.type = 'text/css';
-        link.href = 'file:///Users/casperschipper/Google Drive/Research Catalog/Portal Meetings/Reveal/reveal.js-3.8.0/css/print/pdf.css';
+        link.href = 'file:///home/luc/Work/src/reveal.js/css/print/pdf.css';
         document.getElementsByTagName( 'head' )[0].appendChild( link );
     }
 </script>
@@ -32,13 +32,13 @@
 
 
 <section>
-<section id="slide-org0156e52">
-<h2 id="org0156e52">New Features</h2>
-<div class="outline-text-2" id="text-org0156e52">
+<section id="slide-orgfe468a9">
+<h2 id="orgfe468a9">New Features</h2>
+<div class="outline-text-2" id="text-orgfe468a9">
 </div>
 </section>
-<section id="slide-org46cd26b">
-<h3 id="org46cd26b">New RC Front Page</h3>
+<section id="slide-org60bba0e">
+<h3 id="org60bba0e">New RC Front Page</h3>
 <ul>
 <li>Make it easier to browse and find research</li>
 <li>Better communicate hosted journals, portals etc. and their focus</li>
@@ -47,24 +47,24 @@
 
 </ul>
 </section>
-<section id="slide-org5027cd7">
-<h4 id="org5027cd7">New RC Front Page: Sketch 1</h4>
+<section id="slide-org7d99bf0">
+<h4 id="org7d99bf0">New RC Front Page: Sketch 1</h4>
 
 <div class="figure">
 <p><img src="./media/mockup1.png" alt="mockup1.png" />
 </p>
 </div>
 </section>
-<section id="slide-orgadab10e">
-<h4 id="orgadab10e">New RC Journals Page: Sketch 2</h4>
+<section id="slide-org013c22b">
+<h4 id="org013c22b">New RC Journals Page: Sketch 2</h4>
 
 <div class="figure">
 <p><img src="./media/mockup2.png" alt="mockup2.png" />
 </p>
 </div>
 </section>
-<section id="slide-org50fd28b">
-<h3 id="org50fd28b">In Revision State</h3>
+<section id="slide-org41b92fc">
+<h3 id="org41b92fc">In Revision State</h3>
 <p>
 Expositions can now be put "in revision" state.
 </p>
@@ -82,8 +82,8 @@ This means:
 </ul>
 
 </section>
-<section id="slide-orgb396955">
-<h4 id="orgb396955">In revision dialog (administrator)</h4>
+<section id="slide-org04c0697">
+<h4 id="org04c0697">In revision dialog (administrator)</h4>
 
 <div class="figure">
 <p><img src="./media/in_revision.png" alt="in_revision.png" />
@@ -91,8 +91,8 @@ This means:
 </div>
 
 </section>
-<section id="slide-orgcfab05a">
-<h4 id="orgcfab05a">In revision dialog (author)</h4>
+<section id="slide-orga95724d">
+<h4 id="orga95724d">In revision dialog (author)</h4>
 
 <div class="figure">
 <p><img src="./media/in-revision-author.png" alt="in-revision-author.png" />
@@ -100,20 +100,22 @@ This means:
 </div>
 
 </section>
-<section id="slide-orga06bb8e">
-<h3 id="orga06bb8e">New Text-Based Editor</h3>
+<section id="slide-org242f058">
+<h3 id="org242f058">New Text-Based Editor</h3>
 <ul>
 <li>Complete re-implementation in the purely functional language <i>elm</i> (<a href="https://elm-lang.org/">https://elm-lang.org/</a>)</li>
+<li>Performance improvements</li>
 <li>Better long-term maintenance and easier to extend</li>
 <li>Easier to merge with the graphical editor</li>
 <li>Browser-based spell-checker</li>
-<li><a href="https://github.com/SocietyForArtisticResearch/texteditor-elm">https://github.com/SocietyForArtisticResearch/texteditor-elm</a></li>
 <li>Media is sortable/searchable</li>
+<li><a href="https://github.com/SocietyForArtisticResearch/texteditor-elm">https://github.com/SocietyForArtisticResearch/texteditor-elm</a></li>
 
 </ul>
+
 </section>
-<section id="slide-org82e812b">
-<h3 id="org82e812b">Keyword Page</h3>
+<section id="slide-orgf476588">
+<h3 id="orgf476588">Keyword Page</h3>
 <ul>
 <li>Search has an option to return results as raw data (JSON).</li>
 <li>This can be used to navigate content in custom ways.</li>
@@ -125,21 +127,32 @@ This means:
 <a href="https://www.researchcatalogue.net/view/496747/496748">https://www.researchcatalogue.net/view/496747/496748</a>
 </p>
 
+<ul>
+<li>Upcoming features: 
+<ul>
+<li>Make keywords mandatory on publication</li>
+<li>Have a combination of closed and open vocabularies</li>
+
+</ul></li>
+
+</ul>
+
 </section>
-<section id="slide-org81a4581">
-<h3 id="org81a4581">HTML Import</h3>
+<section id="slide-orgcfb5f71">
+<h3 id="orgcfb5f71">HTML Import</h3>
 <ul>
 <li>Restrictive direct HTML, CSS and media upload as exposition</li>
 <li>No JavaScript</li>
 <li>Requires one <code>index.html</code></li>
 <li>Multiple pages are generated</li>
 <li>Warnings and error messages are listed if the input is not correct</li>
-<li>Still testing on <a href="https://dev.researchcatalogue.net">https://dev.researchcatalogue.net</a></li>
+<li>Testers needed: <a href="https://dev.researchcatalogue.net">https://dev.researchcatalogue.net</a></li>
 
 </ul>
+
 </section>
-<section id="slide-org10f41df">
-<h3 id="org10f41df">Share Status</h3>
+<section id="slide-org751381b">
+<h3 id="org751381b">Share Status</h3>
 <ul>
 <li>This is related to "connect to portal".</li>
 <li>Admins can see the share status of objects</li>
@@ -152,18 +165,20 @@ This means:
 </p>
 </div>
 
+
 </section>
-<section id="slide-orgd2de6fe">
-<h3 id="orgd2de6fe">Fixes Pseudonym</h3>
+<section id="slide-orge719ff7">
+<h3 id="orge719ff7">Fixes Pseudonym</h3>
 
 <div class="figure">
 <p><img src="./media/pseudonym.png" alt="pseudonym.png" />
 </p>
 </div>
 
+
 </section>
-<section id="slide-org6446f9e">
-<h3 id="org6446f9e">Titles and metadata for admin</h3>
+<section id="slide-org274e253">
+<h3 id="org274e253">Titles and metadata for admin</h3>
 <ul>
 <li>Titles and metadata can be directly edited by admins from the reviewing list.</li>
 <li><a href="https://www.researchcatalogue.net/admin/reviewing/list">https://www.researchcatalogue.net/admin/reviewing/list</a></li>
@@ -171,8 +186,8 @@ This means:
 </ul>
 
 </section>
-<section id="slide-orgce636a4">
-<h4 id="orgce636a4">to access: click "edit" and..</h4>
+<section id="slide-org74162ff">
+<h4 id="org74162ff">to access: click "edit" and..</h4>
 
 <div class="figure">
 <p><img src="./media/edit-research-admin.png" alt="edit-research-admin.png" />
@@ -180,33 +195,35 @@ This means:
 </div>
 
 </section>
-<section id="slide-org55dd34d">
-<h4 id="org55dd34d">..open the metadata tab !</h4>
+<section id="slide-orge086232">
+<h4 id="orge086232">..open the metadata tab !</h4>
 
 <div class="figure">
 <p><img src="./media/edit-metadata-admin.png" alt="edit-metadata-admin.png" />
 </p>
 </div>
 
+
 </section>
-<section id="slide-orgfbb5b3d">
-<h3 id="orgfbb5b3d">Connect-to-Portal</h3>
+<section id="slide-orgc3b5f9c">
+<h3 id="orgc3b5f9c">Connect-to-Portal</h3>
 <ul>
 <li>Private expositions can longer be connected to portals</li>
 <li>Share status displayed in admin interface</li>
 
 </ul>
 </section>
-<section id="slide-orgdbc1cdb">
-<h4 id="orgdbc1cdb">Connection Request Share Status</h4>
+<section id="slide-orge7a832f">
+<h4 id="orge7a832f">Connection Request Share Status</h4>
 
 <div class="figure">
 <p><img src="./media/connect_share.png" alt="connect_share.png" />
 </p>
 </div>
+
 </section>
-<section id="slide-org19a58e0">
-<h3 id="org19a58e0">Excel Export of Applications</h3>
+<section id="slide-orgf497d99">
+<h3 id="orgf497d99">Excel Export of Applications</h3>
 <ul>
 <li>For programs with large numbers of submissions</li>
 <li>Exports to "comma seperated value" files (CSV)</li>
@@ -216,18 +233,19 @@ This means:
 
 </ul>
 
+
 </section>
-<section id="slide-orge3cb618">
-<h3 id="orge3cb618">Application statistics</h3>
+<section id="slide-org6c228f6">
+<h3 id="org6c228f6">Application statistics</h3>
 <ul>
-<li>shows number applied, not yet submitted.</li>
+<li>Shows number of applications that are not yet submitted.</li>
 
 </ul>
 </section>
 </section>
 </div>
 </div>
-<script src="file:///Users/casperschipper/Google Drive/Research Catalog/Portal Meetings/Reveal/reveal.js-3.8.0/js/reveal.js"></script>
+<script src="file:///home/luc/Work/src/reveal.js/js/reveal.js"></script>
 
 <script>
 // Full list of configuration options available here:
@@ -241,7 +259,7 @@ multiplex: {
 
 // Optional libraries used to extend on reveal.js
 dependencies: [
- { src: 'file:///Users/casperschipper/Google Drive/Research Catalog/Portal Meetings/Reveal/reveal.js-3.8.0/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }]
+ { src: 'file:///home/luc/Work/src/reveal.js/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }]
 });
 </script>
 </body>

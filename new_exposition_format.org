@@ -9,6 +9,23 @@
 #+LANGUAGE: en
 #+REVEAL_PLUGINS: (highlight)
 
+
+* MODULE: Aims
+
+** Aims 1
+- Expositions negotiate technological developments, publishing
+  standards, artistic practices and administrative requirements. 
+- Format needs to be robust yet adaptable.
+- Incompatibility of its editing tools with established and
+  conventional digital publishing formats. 
+
+** Aims 2
+- New fully specified format that merges both existing formats. 
+- Improve the extensibility, referenceability, long term archivability
+  and possibility to be linked to other systems and different display technologies. 
+- Allow for explorations with regard to consumption as well as with regard to editing.
+- Facilitate administrative and reviewing workflows 
+
 * MODULE: New Exposition Format 
 
 ** Motivations
@@ -16,11 +33,13 @@
 #+ATTR_REVEAL: :frag (appear)
 - Facilitate manifold workflows
 - Research tool and documentation tool
+- Rewrite, reuse and experiment with expositions
 - Programmability
 - Archivability 
 - Specification
 - Expressing relation between data objects
 - Spatialized knowledge
+
 
 ** Workflow
 
@@ -29,7 +48,7 @@
 - Writing text
 - Tagging data
 - Creating relations among data
-- Visualizing realtions
+- Visualizing relations
 
 ** Relations
 
@@ -44,17 +63,19 @@
 ** Ontology
 
 #+ATTR_REVEAL: :frag (appear)
-- Exposition as a set of relations among data
 - Specification of fundamental structure and vocabularies
+- Exposition as a set of relations among data
 - Queryable data object
-- Linked data
+- Linked data, open to outside networks
 - Validation and dependencies
 
 ** Renderers
 
 #+ATTR_REVEAL: :frag (appear)
-- Multiple rendering engines (PDF, HTML, responsive, temporal sequence, epub, SVG etc.)
-- Different purposes: curated path, archive, "print out", responsive page, programmed application
+- Multiple rendering engines (PDF, HTML, responsive, temporal
+  sequence, epub, SVG etc.)
+- Different purposes: curated path ("guided tour"), presentation,
+  archive, "print out", responsive page, programmed application
 - Not all properties will be rendered by all renderers
 
 ** Reading Process
@@ -65,7 +86,8 @@
 - Embedding and linking with external resources
 - "Meta-expositions"
 - Curated paths/arrangements
-- Social aspects: collective notes, discussions, tracing the reading processes in the exposition
+- Social aspects: collective notes, discussions, tracing the reading
+  processes in the exposition
 
 ** Writing Process
 
@@ -73,12 +95,13 @@
 - Rendering, reading and writing as entangled practices
 - Visualization (mindmap, graph etc.) can reveal properties and establish new connections
 - The writing process can help discover something about the work
+- Specific editing modes (for example text only)
 - Author can decide on the degree of mutability
-
 
 ** Roadmap
 
 #+ATTR_REVEAL: :frag (appear)
 - Definition of the ontology
+- Media repository
 - Gradual integration into the editors
-- Editing relations
+- Editing modes for relations

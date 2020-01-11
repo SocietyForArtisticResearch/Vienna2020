@@ -20,11 +20,12 @@
 - Reuse of materials between expositions
 - Additional meta-data
 - Represents a single real-world (art)work, article, project or event
+  on the profile
 
 
 ** Reimagining Works as a Media Repository
 
-*** Uploading media
+*** Uploading Media
 
 - Bulk
 - Automatic file type detection
@@ -33,29 +34,44 @@
 
 *** Organising Media
 
-- Grouping (sets)
+- Grouping (sets, hierarchical tree structure)
 - Searching
 - Sorting by properties
 - Creating relationships (by annotation)
+- Supports new exposition format
+
+*** Collaboration
+- Media (sets) can be shared
+- Permission and ownership management
+- Search for works
+- Citing
 
 *** Annotation (1/2)
 
 - Any media object can annotate another media object
 - Annotation can point to a location/time within another object
-- Collaboration / Sharing / Citing
 
 *** Annotation (2/2)
 
 - Objects annotate objects
-- Pointers depend on the nature of the object
+- Pointers depend on the nature of the object (location, point in
+  time, a word in a text, etc.)
 
 *** Annotation Types
  
 - Reference: citation, source, example
 - Description: meta-data, material, context, time etc..
 - Comment: footnote, thoughts, tangents
-- Realization: Performance of a score/script/plan etc.. 
+- Realization: performance of a score/script/plan etc.. 
 - Representation: maps, diagrams, graphics, tables, timeline
+- Immediate neighbor 
+
+*** Example 1
+[[./media/expo1.png]]
+
+
+*** Example 2
+[[./media/expo2.png]]
 
 *** Annotation Pointer Types:
 

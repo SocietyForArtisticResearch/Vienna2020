@@ -11,6 +11,7 @@
 
 
 * New Features
+
 ** New RC Front Page
 - Make it easier to browse and find research
 - Better communicate hosted journals, portals etc. and their focus
@@ -20,6 +21,7 @@
 [[./media/mockup1.png]]
 *** New RC Journals Page: Sketch 2
 [[./media/mockup2.png]]
+
 ** In Revision State
 
 Expositions can now be put "in revision" state.
@@ -39,11 +41,13 @@ This means:
 
 ** New Text-Based Editor
 - Complete re-implementation in the purely functional language /elm/ (https://elm-lang.org/)
+- Performance improvements
 - Better long-term maintenance and easier to extend
 - Easier to merge with the graphical editor
 - Browser-based spell-checker
-- https://github.com/SocietyForArtisticResearch/texteditor-elm
 - Media is sortable/searchable
+- https://github.com/SocietyForArtisticResearch/texteditor-elm
+
 ** Keyword Page 
 
 - Search has an option to return results as raw data (JSON).
@@ -52,13 +56,18 @@ This means:
 
 [[https://www.researchcatalogue.net/view/496747/496748]]
 
+- Upcoming features: 
+  - Make keywords mandatory on publication
+  - Have a combination of closed and open vocabularies
+
 ** HTML Import
 - Restrictive direct HTML, CSS and media upload as exposition
 - No JavaScript
 - Requires one =index.html=
 - Multiple pages are generated
 - Warnings and error messages are listed if the input is not correct
-- Still testing on https://dev.researchcatalogue.net
+- Testers needed: https://dev.researchcatalogue.net
+
 ** Share Status 
 
 - This is related to "connect to portal".
@@ -66,8 +75,10 @@ This means:
 
 [[./media/share-status-connection.png]]
 
+
 ** Fixes Pseudonym 
 [[./media/pseudonym.png]]
+
 
 ** Titles and metadata for admin
 
@@ -82,11 +93,13 @@ This means:
 
 [[./media/edit-metadata-admin.png]]
 
+
 ** Connect-to-Portal 
 - Private expositions can longer be connected to portals
 - Share status displayed in admin interface
 *** Connection Request Share Status
     [[./media/connect_share.png]]
+
 ** Excel Export of Applications
 
 - For programs with large numbers of submissions
@@ -95,6 +108,7 @@ This means:
 - Works per group/program
 - Currently limited to one way, only export
 
+
 ** Application statistics
 
-- shows number applied, not yet submitted.
+- Shows number of applications that are not yet submitted.
