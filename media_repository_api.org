@@ -46,7 +46,7 @@
 - Search for works
 - Citing
 
-*** Annotation (1/2)
+*** Annotation 
 
 - Any media object can annotate another media object
 - Meta-data itself is treated as a structured object
