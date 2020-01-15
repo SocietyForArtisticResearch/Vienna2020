@@ -1,0 +1,20 @@
+#+REVEAL_THEME: white
+#+REVEAL_EXTRA_CSS: style.css
+#+DATE: January 2020
+#+TITLE: Focus Groups and Development Log
+#+AUTHOR: Döbereiner and Schipper
+#+OPTIONS: toc:nil
+#+OPTIONS: timestamp:nil
+#+OPTIONS: num:nil
+#+LANGUAGE: en
+#+REVEAL_PLUGINS: (highlight)
+
+* Focus Groups Structure
+- Formats, Data, Archiving
+- RC Community, Network and Teaching
+- Administration and Workflow
+* Logbook
+https://societyforartisticresearch.github.io/rclogbook/
+
+* Bug Reporting
+- Upcoming bug report form linked to the logbook
