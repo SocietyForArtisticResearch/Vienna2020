@@ -72,6 +72,9 @@
 *** Example 3
 [[./media/expo3.png]]
 
+*** Example 4
+[[./media/expo4.png]]
+
 *** Annotation Pointer Types:
 
 - Time (and optional location within): audio and video
