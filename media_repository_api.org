@@ -48,13 +48,9 @@
 
 *** Annotation (1/2)
 
-- Meta-data itself is treated as a strucutred object (!!)
 - Any media object can annotate another media object
+- Meta-data itself is treated as a structured object
 - Annotation can point to a location/time within another object
-
-*** Annotation (2/2)
-
-- Objects annotate objects
 - Pointers depend on the nature of the object 
 
 *** Annotation Types
@@ -72,6 +68,9 @@
 
 *** Example 2
 [[./media/expo2.png]]
+
+*** Example 3
+[[./media/expo3.png]]
 
 *** Annotation Pointer Types:
 
