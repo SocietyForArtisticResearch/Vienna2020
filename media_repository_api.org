@@ -38,6 +38,7 @@
 
 *** Annotation (1/2)
 
+- Meta-data itself is treated as a strucutred object (!!)
 - Any media object can annotate another media object
 - Annotation can point to a location/time within another object
 - Collaboration / Sharing / Citing
@@ -62,7 +63,7 @@
 - Character position: text
 
 ** Part 2: API
-
+   
 *** Why an API?
 
 - Custom editors and imports (example: text-based editor, madek import)

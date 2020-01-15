@@ -24,7 +24,7 @@
 *** haskell code
 ** Media Repostiroy/API (Casper)
 
-(moved to [[media-repository-api.org]])
+(moved to [[./media_repository_api.org]])
 
 
 
