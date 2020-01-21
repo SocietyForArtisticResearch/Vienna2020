@@ -1,0 +1,41 @@
+* talk to florian portfolio metadata
+voc.uni-ak, vokab api
+gnd getty
+api of portfo
+* front page
+- open calls on front page (heidi)
+- different ways of showing/browsing publications
+- different sortings of institutions/artists(like on thomann)
+- how to represent purpose of rc, rc as "non-abusive" space, wie
+  künstler ansprechen mit frontpage (kommt von michael)
+* revision
+- resubmit (instead of resubmit for reviewing)
+- idea: copy/version on submit/revision
+* test-based editor
+- how to communicate changes (anders)
+- metadata markdown syntax, such as {meta:title}
+* html import
+anne-helen myland as tester
+* keywords
+- mandatory keywords, make possible for admins to add keywords for already published expositions
+* idea: metadata export for journals
+* idea: journal submission as application
+* bergen conference feedback
+** sort/organise application by certain fields
+** inbox/profile too much for one person
+** sorting reviewers, (reviewers for specific program)
+** "we have received application" message
+** idea: save vs. submit, inform/warn people 
+** sort by decline etc
+** idea: inbox searchable
+** idea: profile searchable
+* publication dates (already in logbook)
+* from mess to structure
+* division of profile and workspace
+* fair data principles (christiane) for annotation
+* text-based exposition as object in graphical exposition
+* versions of cc licenses
+* workshop
+- image width not paragraph width, figure margin
+- cursor positions for style and markdown editors are lost when switching back and forth
+- fonts: helvetica bold, todo: replace with google fonts

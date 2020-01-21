@@ -13,6 +13,7 @@
 * New Features
 
 ** New RC Front Page
+#+ATTR_REVEAL: :frag (appear)
 - Make it easier to browse and find research
 - Better communicate hosted journals, portals etc. and their focus
 - Make it easier for authors to submit to the right journal
